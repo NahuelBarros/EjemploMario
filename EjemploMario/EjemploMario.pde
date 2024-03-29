@@ -1,14 +1,14 @@
-int posicionMario, posicionKooppa, distanciaMK;
+int posicionMario, posicionKoopa, distanciaMK;
 
 public void setup() {
   posicionMario=5;           //distancia de mario
-  posicionKooppa=10;         //distancia de kooppa
+  posicionKoopa=10;         //distancia de koopa
   calcularDistancia();       //calcula la distancia 
   mostrarDistancia();        //muestra la distancia
 }
 
 public void calcularDistancia() {
-  distanciaMK = posicionKooppa-posicionMario;
+  distanciaMK = posicionKoopa-posicionMario;
 }
 
 public void mostrarDistancia(){
